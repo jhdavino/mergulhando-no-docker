@@ -34,7 +34,7 @@ Ele executa um processo discretamente, não tendo mais recursos(por exemplo,mem�
 
 Em contrapartida, uma **máquina virtual** (VM) executa um sistema operacional "convidado" com o acesso virtual aos recursos do host através de um hypervisor. No geral, as VMs fornecem um ambiente com mais recursos do que a maioria das aplicações precisam.
 
-![Container stack example](imagens/vms-and-containers)
+![Container stack example](imagens/vms-and-containers.jpg)
 
 ## Comandos para começar a trabalhar com Doker
 
