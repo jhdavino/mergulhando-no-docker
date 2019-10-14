@@ -74,6 +74,43 @@ Depois de criar o nosso container Jenkins, precisamos entrar dentro dele. Nós u
 $ docker exec -i -t my-jenkins /bin/bash
 ```
 
+## Como iniciar e parar contêineres
+
+Iniciando
+```
+docker container start my-jenkins
+```
+
+Parando
+```
+docker container stop my-jenkins
+```
+
+Reiniciando
+```
+docker container restart my-jenkins
+```
+
+Pausando
+```
+docker container pause my-jenkins
+```
+
+Removendo a pausa
+```
+docker container unpause my-jenkins
+```
+
+Bloqueando um Container
+
+```
+docker container wait my-jenkins
+```
+Conectando a um contêiner existente
+```
+docker container attach my-jenkins
+```
+
 ## Montando um volume
 
 ```bash
